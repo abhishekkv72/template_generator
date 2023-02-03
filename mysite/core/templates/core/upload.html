@@ -1,0 +1,37 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+      <center>
+        <h1 style="background-color:powderblue";><b>TEMPLATE GENERATOR</b></h1>   
+        <hr>       
+         <h2>Upload A File</h2>
+    <form action="" method="post" enctype="multipart/form-data">
+    <input type="file" name="document">
+    <button type="submit" id='uploadbtn'>Convert File</button>
+      </center>
+
+    <div id = "demo">
+        <iframe width="1" height="1" frameborder="0" id = 'link'></iframe>  
+      </div>
+</form>
+<script>
+    function download(){
+        document.getElementById('link').src = "{{ link }}" 
+        
+    }
+    document.getElementById("uploadbtn").addEventListener("click", download());
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/92a7a832-59e1-4b56-9300-64009e30a03d/AppServices/subscriptions/92a7a832-59e1-4b56-9300-64009e30a03d/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/learn-enviornmental-variable0302",
+    "appService.deploySubpath": "."
+}
